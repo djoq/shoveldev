@@ -1,29 +1,6 @@
 <div class="authform">
   <fieldset>
   <h1 align=center>Terms and Conditions</h1>
-  <p align=right; style="width:400px;" >By using this application, you agree to share your location and email with other users. You may enter your phone number for faster response times if you wish, and remember that this information can be seen by other registered users.</p> 
+  <p align=right; style="width:200px;" >By using this application, you agree to share your location and email with other users. You may enter your phone number for faster response times if you wish, and remember that this information can be seen by other registered users.</p> 
   </fieldset>
 </div>
-<table>
-  <thead>
-    <tr>
-      <th>For Internal Use, Submit terms below.</th>
-      <th colspan="1"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @terms.each do |term| %>
-      <tr>
-        <td><%= term.agreement %></td>
-        <td><%= link_to 'Show', term %></td>
-        <td><%= link_to 'Edit', edit_term_path(term) %></td>
-        <td><%= link_to 'Destroy', term, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Term', new_term_path %>
