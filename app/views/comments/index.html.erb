@@ -1,0 +1,26 @@
+<h1 align=center>ShovelMeOut</h1>
+<p align=center> If your car's burried, find someone to help! </p>
+<p align=center> If you want to earn cash, find buried cars on the map </p>
+<h4> Leave us Feedback! </h4>
+<%= render 'form' %>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Comment</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @comments.each do |comment| %>
+      <tr>
+        <td><%= comment.name %></td>
+        <td><%= comment.comment %>|</td>
+        <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
