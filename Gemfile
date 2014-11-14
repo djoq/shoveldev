@@ -20,7 +20,7 @@ gem 'devise'
 gem 'pundit'
 gem 'rails_layout'
 gem 'geocoder'
-gem 'gmaps4rails'
+gem 'gmaps4rails', '2.1.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
