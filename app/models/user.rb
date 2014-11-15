@@ -7,8 +7,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   
-  def self.active
-    @self.active = User.all.where(status: true)
+  def self.Active
+    @self.Active = User.all.where(status: true)
   end
  
 end
