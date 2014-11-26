@@ -59606,3 +59606,377 @@ Started GET "/assets/terms.js?body=1" for 127.0.0.1 at 2014-11-15 20:04:26 -0500
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-15 20:04:26 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 18:04:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (29.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by VisitorsController#index as HTML
+  Rendered visitors/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation_links.html.erb (18.5ms)
+  Rendered layouts/_navigation.html.erb (22.6ms)
+  Rendered layouts/_messages.html.erb (3.2ms)
+Completed 200 OK in 2414ms (Views: 2373.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/terms.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/terms.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:07 -0500
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-26 18:04:09 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (168.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.1ms)
+  Rendered layouts/_navigation.html.erb (2.9ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 1129ms (Views: 1028.3ms | ActiveRecord: 45.8ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-11-26 18:04:12 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z7jYJD9NGS+m0OQZnZA9x/N23PP1Yg1kvAovo7aGGK0=", "user"=>{"email"=>"danieljoquinn@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (36.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'danieljoquinn@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (31.9ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 6  [["current_sign_in_at", "2014-11-26 23:04:13.240440"], ["last_sign_in_at", "2014-11-16 01:01:42.642775"], ["sign_in_count", 4], ["updated_at", "2014-11-26 23:04:13.243866"]]
+  [1m[36m (12.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/users
+Completed 302 Found in 547ms (ActiveRecord: 80.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-11-26 18:04:13 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"  WHERE "users"."status" = 'active'[0m
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.9ms)
+  Rendered layouts/_navigation.html.erb (3.2ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+Completed 200 OK in 829ms (Views: 808.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/terms.css?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/terms.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 18:04:14 -0500
+
+
+Started GET "/comments" for 127.0.0.1 at 2014-11-26 18:04:19 -0500
+Processing by CommentsController#index as HTML
+  Rendered comments/_form.html.erb (41.5ms)
+  [1m[35mComment Load (0.7ms)[0m  SELECT "comments".* FROM "comments"
+  Rendered comments/index.html.erb within layouts/application (47.7ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 6  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_navigation_links.html.erb (5.9ms)
+  Rendered layouts/_navigation.html.erb (9.1ms)
+  Rendered layouts/_messages.html.erb (1.2ms)
+Completed 200 OK in 957ms (Views: 937.1ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-11-26 18:04:20 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"  WHERE "users"."status" = 'active'[0m
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.8ms)
+  Rendered layouts/_navigation.html.erb (2.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 828ms (Views: 818.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 18:04:22 -0500
+Processing by VisitorsController#index as HTML
+  Rendered visitors/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_navigation_links.html.erb (5.7ms)
+  Rendered layouts/_navigation.html.erb (7.9ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 746ms (Views: 743.5ms | ActiveRecord: 0.7ms)
