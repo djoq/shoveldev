@@ -21,4 +21,5 @@ sudo git commit -m "$message"
 sudo git remote add -f origin https://github.com/djoq/"$name"
 sudo git add . -f
 sudo git status
+sudo git commit -m "$message"
 sudo git push -f origin master
