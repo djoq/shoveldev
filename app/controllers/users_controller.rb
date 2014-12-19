@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   respond_to :html, :xml, :json
 
   def index
-    @users = User.active
+    @users = Users.active
     @hash = Gmaps4rails.build_markers(@users) do |user, marker|
 
       marker.lat user.latitude
