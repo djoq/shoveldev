@@ -67912,3 +67912,19 @@ NameError (uninitialized constant UsersController::Users):
   Rendered /home/danieljoquinn/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
   Rendered /home/danieljoquinn/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
   Rendered /home/danieljoquinn/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (71.4ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddActiveScopeToUser (20141219164140)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mCREATE  INDEX  "index_users_on_active" ON "users"  ("active")[0m
+PG::UndefinedColumn: ERROR:  column "active" does not exist
+: CREATE  INDEX  "index_users_on_active" ON "users"  ("active")
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddActiveScopeToUser (20141219164140)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (2.4ms)[0m  [1mCREATE  INDEX  "index_users_on_status" ON "users"  ("status")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141219164140"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"  WHERE "users"."status" = 't'
