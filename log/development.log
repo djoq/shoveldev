@@ -67897,3 +67897,18 @@ Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-12-19 00:40:21 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-19 00:40:21 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-19 00:50:52 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 6  ORDER BY "users"."id" ASC LIMIT 1
+Completed 500 Internal Server Error in 294ms
+
+NameError (uninitialized constant UsersController::Users):
+  app/controllers/users_controller.rb:6:in `index'
+
+
+  Rendered /home/danieljoquinn/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/danieljoquinn/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/danieljoquinn/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/danieljoquinn/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (71.4ms)
