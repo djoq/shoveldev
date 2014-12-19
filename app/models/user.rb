@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   def self.active
-    where(status: true) 
+    where(status: "active") 
   end
 
 end
